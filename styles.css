@@ -4,6 +4,7 @@ body {
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .top {
@@ -14,7 +15,9 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    margin-left: -3.6em;
     align-items: center;
+    min-width: 710px;
 }
 
 .links {
@@ -30,6 +33,15 @@ body {
 
 .hero-talks {
     display: flex;
-    max-width: 500px;
+    max-width: 400px;
     flex-wrap: wrap;
+}
+
+.hero-statement {
+    max-width: 200px;
+    margin-bottom: 0;
+}
+
+.hero-text {
+    margin-top: 0;
 }
