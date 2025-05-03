@@ -4,20 +4,27 @@ body {
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .top {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
     background-color: #1F2937;
     color: #F9FAF8;
+
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    margin-left: -3.6em;
+    justify-content: space-between;
     align-items: center;
-    min-width: 710px;
+    gap: 160px;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
 }
 
 .links {
@@ -27,21 +34,27 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .hero-talks {
     display: flex;
-    max-width: 400px;
+    max-width: 450px;
     flex-wrap: wrap;
 }
 
 .hero-statement {
-    max-width: 200px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    max-width: 400px;
     margin-bottom: 0;
 }
 
 .hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
     margin-top: 0;
 }
