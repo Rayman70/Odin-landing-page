@@ -76,9 +76,13 @@ body {
 
 .main-text {
     display: flex;
+    justify-content: center;
     font-size: 34px;
 }
 
 .square-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
