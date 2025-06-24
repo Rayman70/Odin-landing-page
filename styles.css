@@ -68,3 +68,17 @@ body {
     height: 35px;
     border: none;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    display: flex;
+    font-size: 34px;
+}
+
+.square-container {
+    display: flex;
+}
