@@ -6,20 +6,23 @@ body {
     flex-direction: column;
 }
 
-.top {
+.top-container {
     display: flex;
     flex-direction: column;
-    padding: 0 40px;
     background-color: #1F2937;
-    color: #F9FAF8;
+}
 
+.top {
+    display: flex;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    gap: 330px;
     align-items: center;
-    gap: 160px;
 }
 
 .logo {
@@ -34,8 +37,9 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
     margin-bottom: 90px;
 }
 
