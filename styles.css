@@ -81,6 +81,7 @@ body {
 .main-text {
     display: flex;
     justify-content: center;
+    font-weight: bold;
     font-size: 34px;
 }
 
@@ -89,4 +90,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 50px;
+    margin-bottom: 90px;
+}
+
+.square-item {
+    max-width: 150px;
+}
+
+.small-square {
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
 }
