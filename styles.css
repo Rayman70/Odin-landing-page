@@ -133,3 +133,59 @@ body {
     justify-content: flex-end;
     margin-top: 0px;
 }
+
+.big-call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px;
+    border: solid;
+    border-radius: 10px;
+    padding: 30px 100px;
+    width: 700px;
+    background-color: #3882F6;
+    border: none;
+}
+
+
+.call-main {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.call-subtext {
+    font-size: 15px;
+    color: white;
+    margin-top: 0px;
+}
+
+.sign-up2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+}
