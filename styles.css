@@ -103,3 +103,33 @@ body {
     border-color: #3882F6;
     border-radius: 10px;
 }
+
+.main-quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.main-quote {
+    display: flex;
+    flex-direction: column;
+    width: 790px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 90px;
+}
+
+.thor-quote {
+    margin-bottom: 0px;
+}
+
+.thor-signature {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
